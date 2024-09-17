@@ -54,50 +54,51 @@
         </script>
         
         <!-- SCRIP FOR MEDIA DROPDOWN red:82121f blue:003262 -->
-        <style>
+   <!-- SCRIP FOR MEDIA DROPDOWN red:82121f blue:003262 -->
+   <style>
 
 
-        .dropbtn {
-          color: black;
-          font-size: 16px;
-          border: none; 
-          background-color: #ffffff;
-        }
+    .dropbtn {
+      color: black;
+      font-size: 16px;
+      border: none; 
+      background-color: #ffffff;
+    }
 
-        .dropdown {
-          position: relative;
-          display: inline-block;
-        }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
 
-        .dropdown-content {
-          display: none;
-          position: absolute;
-          z-index: 1;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          background-color: #f9f9f9;
-          min-width: 160px;
-          color: black;
-        }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      z-index: 1;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      background-color: #f9f9f9;
+      min-width: 160px;
+      color: black;
+    }
 
-        .dropdown-content a {
-          color: #868e96;
-          padding: 6px 12px;
-          text-decoration: none;
-          display: block;
-        }
+    .dropdown-content a {
+      color: #868e96;
+      padding: 6px 12px;
+      text-decoration: none;
+      display: block;
+    }
 
-        .dropdown-content a:hover {
-          background-color: #003262;
-          color: white;
-        }
+    .dropdown-content a:hover {
+      background-color: #003262;
+      color: white;
+    }
 
-        .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropdown-content {display: block;}
 
-        .dropdown:hover .dropbtn {background-color: #f9f9f9;}
-        </style>
-        
-        <!-- HLINK FORMATS -->
-        <style>
+    .dropdown:hover .dropbtn {background-color: #f9f9f9;}
+    </style>
+
+    <!-- HLINK FORMATS -->
+    <style>
     a.hlinknames {color:#868e96;}
     a.hlinknames:hover, a.hlinknames:active {text-decoration: underline; color:#868e96;}
     </style>
@@ -114,10 +115,12 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#papers">Publications</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#workingpapers">Working Papers</a></li>
                 </ul>
             </div>
         </nav>
+        
         <!-- Page Content-->
         <div class="container-fluid p-0">
             <!-- About-->
@@ -138,19 +141,20 @@
                     </div>
                 </div>
             </section>
+
             <hr class="m-0" />
-            <!-- Working Papers-->
-            <section class="resume-section" id="workingpapers">
+            <!-- Publications-->
+            <section class="resume-section" id="papers">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Working Papers</h2>
+                    <h2 class="mb-5">Publications</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><a href="rest_a_01037.pdf" target="_blank">Paying Outsourced Labor: Direct Evidence form Linked Temp Agency-Worker-Client Data</a></h3>
                             <div class="subheading mb-0">with <a class="hlinknames" href="http://www.andresdrenik.com/" target="_blank">Andres Drenik</a>, <a class="hlinknames" href="https://economics.mit.edu/faculty/sjaeger" target="_blank">Simon Jäger</a> and <a class="hlinknames" href="https://eml.berkeley.edu/~schoefer/" target="_blank">Benjamin Schoefer</a></div>
-                            <b>Review of Economics and Statistics</b>, Forthcoming
+                            <b>Review of Economics and Statistics</b>, 105, no. 1 (2023): 206-216
                             <p style="margin:0;"> </p>
                             <div class="topnav"> <a href="javascript:void();" onclick="toggle_visibility('foo_fies');"> [Show/hide abstract]</a>
-                            ·
+                              <div id="foo_fies" style="display:none"> <div align="justify"> We estimate how much firms differentiate pay premia between regular and outsourced workers in temp agency work arrangements. We leverage unique Argentinian administrative data that feature links between user firms (the workplaces where temp workers perform their labor) and temp agencies (their formal employers). We estimate  that a high-wage user firm that pays a regular worker a 10% premium pays a temp worker on average only a 4.9% premium, compared to what these workers would earn in a low-wage user firm in their respective work arrangements---the midpoint between the benchmarks for insiders (one) and the competitive spot-labor market (zero). </div></div>
                             <div class="dropdown"> 
                             <button class="dropbtn" style="margin-left: -5.5px; margin-right: -5.5px;"> <font color="C23C2C">[VoxDev]</font> </button> <div class="dropdown-content"> 
                               <a href="https://voxdev.org/topic/labour-markets-migration/paying-outsourced-labour-evidence-argentina?utm_source=dlvr.it&utm_medium=twitter" target="_blank">  Podcast  </a>
@@ -159,31 +163,46 @@
                            </div>
                             · 
                             <a href="https://direct.mit.edu/rest/article-abstract/doi/10.1162/rest_a_01037/98203/Paying-Outsourced-Labor-Direct-Evidence-from" target="_blank"> [Published version]</a>
-                    </div>
-                      <p> </p>
-                      <p> </p>
-                        <div id="foo_fies" style="display:none"> 
-                            <div align="justify">
-                                We estimate how much firms differentiate pay premia between regular and outsourced workers in temp agency work arrangements. We leverage unique Argentinian  administrative data that feature links between user firms (the workplaces where temp workers perform their labor) and temp agencies (their formal employers).  We estimate  that a high-wage user firm that pays a regular worker a 10% premium, pays a temp worker on average only a 4.9% premium, compared to what these workers would earn in a low-wage user firm in their respective work arrangements---the midpoint between the benchmarks for insiders (one) and the competitive spot-labor market (zero).
+                  </div>
+            </section>  
+
+
+            <!-- Working Papers-->
+            <hr class="m-0" />
+            <!-- Publications-->
+            <section class="resume-section" id="workingpapers">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Working Papers</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"><a href="Daruich_Kuntze_Plotkin_Saggio.pdf" target="_blank">The Consequences of Domestic Outsourcing on Workers:  New Evidence from Italian Administrative Data</a></h3>
+                            <div class="subheading mb-0">with <a class="hlinknames" href="https://www.diegodaruich.com/" target="_blank">Diego Daruich</a>, <a class="hlinknames">Martino Kuntze</a> and <a class="hlinknames" href="https://sites.google.com/site/raffaelesaggio/" target="_blank">Raffaele Saggio</a></div>
+                            Last update: September 2024
+                            <p style="margin:0;"> </p>
+                             <div class="topnav"> <a href="javascript:void();" onclick="toggle_visibility('foo_fl_policy');"> [Show/hide abstract]</a>
                             </div>
-                        </div>
-                        <p></p>
-                        </div>
-                    </div>
+                           <p> </p>
+                           <p> </p>
+                             <div id="foo_fl_policy" style="display:none"> <div align="justify"> We exploit a novel identifier of outsourcing events present in Italian administrative data. This information permits us to estimate the effects of outsourcing across a wide set of occupations without restricting the analysis to workers who remain employed after being outsourced. We find that outsourcing leads to substantial earnings losses, primarily driven by the extensive margin---a margin not fully analyzed by previous research---as several outsourced workers become non-employed shortly after joining the contracting firms. Outsourced workers in non-routine manual jobs have the largest earnings losses, while those in jobs involving abstract, cognitive tasks experience some earnings gains following the outsourcing event. Our evidence is consistent with some Italian firms using outsourcing to bypass the country's strict employment protection legislation. </div></div>
+                             <p></p>
+                         </div>
+                       </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                       <h3 class="mb-0"><a href="Canada_oil.pdf" target="_blank">Does it Matter Where and What I Study? Evidence from the Oil Price Crash in Canada</a></h3>
                       <div class="subheading mb-0">with <a class="hlinknames" href="https://economics.harvard.edu/people/maria-constanza-abuin" target="_blank">Constanza Abuin</a></div> 
                        Last update: October 2021
                        <p style="margin:0;"> </p>
-                        <div class="topnav"> <a href="javascript:void();" onclick="toggle_visibility('foo_fl_policy');"> [Show/hide abstract]</a>
+                        <div class="topnav"> <a href="javascript:void();" onclick="toggle_visibility('foo_fl');"> [Show/hide abstract]</a>
                        </div>
                       <p> </p>
                       <p> </p>
-                        <div id="foo_fl_policy" style="display:none"> <div align="justify"> We estimate the impact of a labour demand shock on Canadian recently graduated bachelor students. We leverage a unique Canadian administrative data that features links between individuals post-secondary education and their tax-files. We estimate that a standard deviation increase in school-major specific labour demand, increased earnings immediately in a magnitude between 2.3 and 2.6 log points, with persistent and increasing effects throughout the oil shock. Additionally, the labour demand shock had effects on other labour market outcomes such as unemployment or self-employment. In terms of schooling, school-major specific labour demand had a positive effect on dropouts, which remarks the importance of considering the outside option of students when studying school enrollment. </div></div>
+                        <div id="foo_fl" style="display:none"> <div align="justify"> We estimate the impact of a labour demand shock on Canadian recently graduated bachelor students. We leverage a unique Canadian administrative data that features links between individuals post-secondary education and their tax-files. We estimate that a standard deviation increase in school-major specific labour demand, increased earnings immediately in a magnitude between 2.3 and 2.6 log points, with persistent and increasing effects throughout the oil shock. Additionally, the labour demand shock had effects on other labour market outcomes such as unemployment or self-employment. In terms of schooling, school-major specific labour demand had a positive effect on dropouts, which remarks the importance of considering the outside option of students when studying school enrollment. </div></div>
                         <p></p>
                     </div>
                   </div>
+            </section>  
+          
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
